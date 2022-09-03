@@ -35,6 +35,8 @@ print(isinstance(type, object)) # Все классы являются прои�
 # True
 print(isinstance(object, type)) # Типы создают классы, и type - это класс
 # True
+print(object is type)
+#False
 
 print(C.__bases__)
 #(<class 'object'>,)
